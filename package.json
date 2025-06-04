@@ -12,9 +12,9 @@
         "typescript": "^5"
     },
     "scripts": {
-        "lint": "bun oxlint",
+        "lint": "bun install && bun oxlint",
         "dev": "bun index.html",
-        "fmt": "bun dprint fmt",
+        "fmt": "bun install && bun dprint fmt",
         "typecheck": "bun tsc --noEmit",
         "submit": "bun fmt && git add . && git commit -m submit && git push"
     },
