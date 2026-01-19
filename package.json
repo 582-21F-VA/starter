@@ -17,8 +17,5 @@
         "fmt": "bun install && bun dprint fmt",
         "typecheck": "bun tsc --noEmit",
         "submit": "bun fmt && git add . && git commit -m submit && git push"
-    },
-    "bun-create": {
-        "postinstall": "rm -rf .git node_modules"
     }
 }
